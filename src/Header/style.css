@@ -1,0 +1,65 @@
+
+header {
+  background: #51526A;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Megrim', cursive;
+  color: #fff;
+  margin: 2px;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 2px 12px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.title {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  display: flex;
+  background: #E35F44;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.links li {
+  margin: 0;
+  padding: 0;
+}
+
+
+.links li a {
+  padding: 6px;
+  margin: 8px;
+  display: block;
+  color: #fff;
+  font-size: 2em;
+  transition: color 600ms;
+}
+
+.links li a:hover,
+.links li a:focus {
+  color: #51526A;
+  transition: color 600ms;
+}
+
+@media (max-width: 400px) {
+  .links li a {
+    font-size: 16px;
+  }
+}
