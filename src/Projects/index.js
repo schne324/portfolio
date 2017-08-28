@@ -4,6 +4,10 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 export default class Projects extends Component {
+  shouldComponentUpdate() {
+    return false;
+  }
+
   render() {
     return (
       <div className='sect projects' id='projects'>

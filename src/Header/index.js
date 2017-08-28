@@ -4,6 +4,10 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 class LinkItem extends Component {
+  shouldComponentUpdate() {
+    return false;
+  }
+
   render() {
     const { to, icon, label } = this.props;
     return (

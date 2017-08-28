@@ -5,6 +5,10 @@ import Projects from './Projects';
 import './App.css';
 
 export default class App extends Component {
+  shouldComponentUpdate() {
+    return false;
+  }
+
   render() {
     return (
       <div id='outer-container'>
