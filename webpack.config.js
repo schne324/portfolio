@@ -40,7 +40,11 @@ module.exports = {
       loader: 'babel-loader',
       query: {
         presets: ['react'],
-        plugins: ['transform-class-properties', 'transform-es2015-classes']
+        plugins: [
+          'transform-class-properties',
+          'transform-es2015-classes',
+          'transform-es2015-shorthand-properties'
+        ]
       }
     }, {
       test: /\.(eot|svg|ttf|woff|woff2)$/,
