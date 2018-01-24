@@ -45,12 +45,14 @@
 .tile-image {
   overflow: hidden;
   height: 190px;
+  display: flex;
 }
 
 .tile-image img {
   width: 90%;
   display: block;
   margin: 0 auto;
+  align-self: center;
 }
 
 .tile-content {

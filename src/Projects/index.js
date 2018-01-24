@@ -14,7 +14,7 @@ export default class Projects extends Component {
         <h3>Projects</h3>
         <div className='tiles'>
           <Tile
-            name={'Deque Pattern Library'}
+            name={'Cauldron (Deque Pattern Library)'}
             links={{
               demo: 'https://pattern-library.dequelabs.com/',
               repo: 'https://github.com/dequelabs/pattern-library',
@@ -26,6 +26,20 @@ export default class Projects extends Component {
               I am the lead developer on Cauldron, a fully accessible HTML, CSS, and Javascript front-end framework
                for creating web and mobile applications.
              </p>
+          </Tile>
+          <Tile
+            name={'Dragon Drop'}
+            links={{
+              demo: 'https://schne324.github.io/dragon-drop/demo/',
+              repo: 'https://github.com/schne324/dragon-drop',
+              npm: 'https://www.npmjs.com/package/drag-on-drop'
+            }}
+            image={'/images/dragon.png'}
+          >
+            <p>
+              Dragon drop is a fully configurable, accessible drag-and-drop reorder module. It provides
+               a way for keyboard, mouse, and assistive technology users to reorder items in a list.
+            </p>
           </Tile>
           <Tile
             name={'Combobo'}
@@ -42,17 +56,14 @@ export default class Projects extends Component {
             </p>
           </Tile>
           <Tile
-            name={'2017 CSUN Presentation: Advanced ARIA'}
+            name={'React Offscreen'}
             links={{
-              slides: 'https://schne324.github.io/csun-advanced-aria/',
-              repo: 'https://github.com/schne324/csun-advanced-aria'
+              repo: 'https://github.com/schne324/react-offscreen',
+              npm: 'https://www.npmjs.com/package/react-offscreen'
             }}
-            image={'/images/csun.png'}
+            image={'/images/react-offscreen.png'}
           >
-            <p>
-              I gave a 2017 CSUN presentation on the topic of Advanced ARIA / Complex Widgets. The slides
-               were built in react.
-            </p>
+            <p>React offscreen is a react component for creating offscreen text.</p>
           </Tile>
           <Tile
             name={'Concerto'}
@@ -85,22 +96,8 @@ export default class Projects extends Component {
                attributes.
             </p>
           </Tile>
-          <Tile
-            name={'Dragon Drop'}
-            links={{
-              demo: 'http://www.harris-schneiderman.com/demos/dragon-drop/index.html',
-              repo: 'https://github.com/schne324/dragon-drop',
-              npm: 'https://www.npmjs.com/package/drag-on-drop'
-            }}
-            image={'/images/dragon.png'}
-          >
-            <p>
-              Dragon drop is a fully configurable, accessible drag-and-drop reorder module. It provides
-               a way for both keyboard and mouse users to reorder items in a list.
-            </p>
-          </Tile>
         </div>
-        <p>...and many many more available on my
+        <p>...and many more available on my
           <a
             href='https://github.com/schne324'
             rel='noopener noreferrer'
@@ -109,6 +106,34 @@ export default class Projects extends Component {
             GitHub
           </a>
         </p>
+        <h3>Talks</h3>
+        <div className='tiles'>
+          <Tile
+            name={'2017 CSUN Presentation: Advanced ARIA'}
+            links={{
+              slides: 'https://schne324.github.io/csun-advanced-aria/',
+              repo: 'https://github.com/schne324/csun-advanced-aria'
+            }}
+            image={'/images/csun.png'}
+          >
+            <p>
+              I gave a 2017 CSUN presentation on the topic of Advanced ARIA / Complex Widgets. The slides
+               were built in react.
+            </p>
+          </Tile>
+          <Tile
+            name={'CodeMash 2018 Presentation: Designers and Developers Working Together - Mass Hysteria!'}
+            links={{
+              slides: 'https://schne324.github.io/combobo-talk-slides/',
+              repo: 'https://github.com/schne324/combobo-talk-slides'
+            }}
+            image={'/images/code-mash-2018.png'}
+          >
+            <p>
+              I co-presented at CodeMash 2018 about developers and designers collaborating on accessible UI components.
+            </p>
+          </Tile>
+        </div>
       </div>
     );
   }
