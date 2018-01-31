@@ -1,22 +1,21 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import Header from './Header';
+import Banner from './Banner';
 import Projects from './Projects';
+import Talks from './Talks'
 import './App.css';
 
-export default class App extends Component {
-  shouldComponentUpdate() {
-    return false;
-  }
+const App = () => (
+  <div id='outer-container'>
+    <div id='page-wrap'>
+      <Header />
+      <main>
+        <Banner />
+        <Projects />
+        <Talks />
+      </main>
+    </div>
+  </div>
+);
 
-  render() {
-    return (
-      <div id='outer-container'>
-        <div id='page-wrap'>
-          <Header />
-          <Projects />
-        </div>
-      </div>
-    );
-  }
-}
+export default App;
