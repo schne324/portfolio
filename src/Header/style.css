@@ -2,6 +2,10 @@
 header {
   background: #51526A;
   justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 h1, h2, h3 {
@@ -20,8 +24,7 @@ h2 {
 }
 
 .title {
-  margin-top: auto;
-  margin-bottom: auto;
+  padding: 7em;
 }
 
 .links {

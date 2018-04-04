@@ -7,18 +7,17 @@ const Projects = () => (
     <h3>Projects</h3>
     <div className='tiles'>
       <Tile
-        name={'Cauldron (Deque Pattern Library)'}
+        name={'Y5E'}
         links={{
-          demo: 'https://pattern-library.dequelabs.com/',
-          repo: 'https://github.com/dequelabs/pattern-library',
-          npm: 'https://www.npmjs.com/package/deque-pattern-library'
+          demo: 'http://harris-schneiderman.com/a11y-games/y5e/',
         }}
-        image={'/images/cauldron.png'}
+        image={'/images/y5e.png'}
       >
         <p>
-          I am the lead developer on Cauldron, a fully accessible HTML, CSS, and Javascript front-end framework
-           for creating web and mobile applications.
-         </p>
+          Y5E (beta) is the first in the planned a11y games suite.
+          It is an accessible version of the classic dice game optimized for
+          assistive technology / keyboard users.
+        </p>
       </Tile>
       <Tile
         name={'Dragon Drop'}
@@ -37,8 +36,8 @@ const Projects = () => (
       <Tile
         name={'Combobo'}
         links={{
-          demo: 'https://schne324.github.io/combobo/demo/',
-          repo: 'https://github.com/schne324/combobo',
+          demo: 'https://dequelabs.github.io/combobo/demo/',
+          repo: 'https://github.com/dequelabs/combobo',
           npm: 'https://www.npmjs.com/package/combobo'
         }}
         image={'/images/combobo.png'}
@@ -57,6 +56,20 @@ const Projects = () => (
         image={'/images/react-offscreen.png'}
       >
         <p>React offscreen is a react component for creating offscreen text.</p>
+      </Tile>
+      <Tile
+        name={'Cauldron (Deque Pattern Library)'}
+        links={{
+          demo: 'https://pattern-library.dequelabs.com/',
+          repo: 'https://github.com/dequelabs/pattern-library',
+          npm: 'https://www.npmjs.com/package/deque-pattern-library'
+        }}
+        image={'/images/cauldron.png'}
+      >
+        <p>
+          I am the lead developer on Cauldron, a fully accessible HTML, CSS, and Javascript front-end framework
+           for creating web and mobile applications.
+         </p>
       </Tile>
       <Tile
         name={'Concerto'}

@@ -18,7 +18,7 @@ LinkItem.propTypes = {
 };
 
 const Header = () => (
-  <header className='sect' id='home'>
+  <header id='home'>
     <div className='title'>
       <h1>Harris Schneiderman</h1>
       <h2>Developer of stuff and things</h2>
