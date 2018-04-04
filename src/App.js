@@ -3,6 +3,7 @@ import Header from './Header';
 import Banner from './Banner';
 import Projects from './Projects';
 import Talks from './Talks';
+import Footer from './Footer';
 import './App.css';
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
         <Projects />
         <Talks />
       </main>
+      <Footer />
     </div>
   </div>
 );

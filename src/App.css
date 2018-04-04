@@ -14,12 +14,6 @@ body {
   flex-direction: column;
 }
 
-.sect#home {
-  height: 100vh;
-  min-height: 350px;
-  justify-content: space-between;
-}
-
 .sect h3 {
   font-size: 3em;
   margin: 1em 0;
@@ -36,6 +30,37 @@ p a {
   margin: 0 3px;
   text-decoration: underline;
 }
+
+
+.banner {
+  background-color: #FFF;
+  padding: 5em;
+  text-align: center;
+}
+
+.banner h3 {
+  color: #51526A;
+  font-size: 3em;
+}
+
+.banner a {
+  display: inline-block;
+  color: #51526A;
+  background-color: #fff;
+  border: 3px solid #51526A;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 18px;
+  transition: all 650ms;
+  margin: 15px auto;
+}
+
+.banner a:hover,
+.banner a:focus {
+  background-color: #51526A;
+  color: #fff;
+}
+
 
 .tiles {
   display: flex;
