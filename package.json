@@ -8,8 +8,7 @@
     "clean": "rm -rf dist/",
     "prepare": "npm run production",
     "production": "npm run clean && NODE_ENV=production webpack",
-    "start:dev": "webpack-dev-server",
-    "start": "DEBUG=* node server.js",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
