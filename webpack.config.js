@@ -5,15 +5,14 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const BabiliPlugin = require('babili-webpack-plugin');
-
 const isProd = process.env.NODE_ENV === 'production';
-
 const plugins = [
   new HtmlWebpackPlugin({
     template: 'src/index.html'
   }),
   new CopyWebpackPlugin([
-    { from: path.join(__dirname, 'assets/'), to: path.resolve(__dirname, './dist/') }
+    { from: path.join(__dirname, 'assets/'), to: path.resolve(__dirname, './dist/') },
+    { from: path.join(__dirname, '_redirects'), to: path.resolve(__dirname, './dist') }
   ])
 ];
 
