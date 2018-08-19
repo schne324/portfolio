@@ -10,6 +10,7 @@ const Projects = () => (
         name={'A11y Games'}
         links={{
           demo: 'https://games.harris-schneiderman.com',
+          repo: 'https://github.com/schne324/games'
         }}
         image={'/images/y5e.png'}
       >
