@@ -7,16 +7,15 @@ const Projects = () => (
     <h3>Projects</h3>
     <div className='tiles'>
       <Tile
-        name={'Y5E'}
+        name={'A11y Games'}
         links={{
-          demo: 'http://harris-schneiderman.com/a11y-games/y5e/',
+          demo: 'https://games.harris-schneiderman.com',
         }}
         image={'/images/y5e.png'}
       >
         <p>
-          Y5E (beta) is the first in the planned a11y games suite.
-          It is an accessible version of the classic dice game optimized for
-          assistive technology / keyboard users.
+          Suite of accessible games for optimized for
+          assistive technology / keyboard users including a classic dice game, Y5E (beta).
         </p>
       </Tile>
       <Tile
