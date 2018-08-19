@@ -12,7 +12,8 @@ const plugins = [
   }),
   new CopyWebpackPlugin([
     { from: path.join(__dirname, 'assets/'), to: path.resolve(__dirname, './dist/') },
-    { from: path.join(__dirname, '_redirects'), to: path.resolve(__dirname, './dist') }
+    { from: path.join(__dirname, '_redirects'), to: path.resolve(__dirname, './dist') },
+    { from: path.join(__dirname, 'src/404.html'), to: path.resolve(__dirname, './dist') }
   ])
 ];
 
