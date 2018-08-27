@@ -10,7 +10,20 @@ const Banner = () => (
     >
       Smashing magazine article on Dragon Drop
     </a>
-    <a href='https://whoami.harris-schneiderman.com'>The real Harris Schneiderman</a>
+    <a
+      rel='noopener noreferrer'
+      target='_blank'
+      href='https://whoami.harris-schneiderman.com'
+    >
+      The real Harris Schneiderman
+    </a>
+    <a
+      rel='noopener noreferrer'
+      target='_blank'
+      href='/Resume.pdf'
+    >
+      Resume
+    </a>
   </div>
 );
 
