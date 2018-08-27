@@ -31,7 +31,6 @@ p a {
   text-decoration: underline;
 }
 
-
 .banner {
   background-color: #FFF;
   padding: 5em;
@@ -44,7 +43,8 @@ p a {
 }
 
 .banner a {
-  display: inline-block;
+  display: block;
+  max-width: 500px;
   color: #51526A;
   background-color: #fff;
   border: 3px solid #51526A;
@@ -60,7 +60,6 @@ p a {
   background-color: #51526A;
   color: #fff;
 }
-
 
 .tiles {
   display: flex;
