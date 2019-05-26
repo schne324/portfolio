@@ -7,6 +7,17 @@ const Talks = () => (
     <h3>Talks</h3>
     <div className='tiles'>
       <Tile
+        name='Building and Testing a Reusable ARIA Widget'
+        links={{
+          repo: 'https://github.com/dequelabs/csun19-tdd-component'
+        }}
+        image='/images/csun-tdd-component.png'
+      >
+        <p>
+          At CSUN 2019, I did a live coding adventure in which I followed TDD. I managed to write unit test cases and build out a reusable, fully-accessible tabpanel component in just 40 minutes!
+        </p>
+      </Tile>
+      <Tile
         name={'2018 CSUN Presentation: Nightmare on HTML Street'}
         links={{
           slides: 'https://schne324.github.io/csun-combobo-talk-slides/#/1',

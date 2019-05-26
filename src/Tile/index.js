@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './index.css';
 
 const text = { demo: 'Demo', repo: 'GitHub', npm: 'NPM', slides: 'Slides' };
 const Tile = ({ name, links, children, image }) => (

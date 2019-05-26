@@ -9,6 +9,13 @@ const Footer = () => (
     >
       github/schne324/portfolio
     </a>
+    <a
+      rel='noopener noreferrer'
+      target='_blank'
+      href='http://photos.harris-schneiderman.com'
+    >
+      photos.harris-schneiderman.com
+    </a>
   </footer>
 );
 
