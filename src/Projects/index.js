@@ -7,6 +7,16 @@ const Projects = () => (
     <h3>Projects</h3>
     <div className='tiles'>
       <Tile
+        name={'Hang Tight'}
+        links={{
+          demo: 'https://hang-tight.netlify.app',
+          repo: 'https://github.com/schne324/hang-tight',
+          npm: 'https://www.npmjs.com/package/hang-tight-react'
+        }}
+      >
+        <p>Hang tight is a CSS (hang-tight) and React (hang-tight-react) accessible pure CSS loader library.</p>
+      </Tile>
+      <Tile
         name={'A11y Games'}
         links={{
           demo: 'https://games.harris-schneiderman.com',
