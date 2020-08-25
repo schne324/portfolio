@@ -72,6 +72,32 @@ p a {
   margin: 10px 0 20px 0;
 }
 
+.site {
+  background: #51526A;
+  padding: 1em;
+  color: #fff;
+  border: 6px double;
+}
+
+.site p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site .fa {
+  margin-right: 12px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: #51526A;
+  border-radius: 50%;
+}
+
 @media (max-width: 580px) {
   body {
     font-size: 14px;

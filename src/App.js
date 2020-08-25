@@ -11,6 +11,15 @@ const App = () => (
     <div id='page-wrap'>
       <Header />
       <main>
+        <div className="site">
+          <p>
+            <span aria-hidden="true" className="fa fa-info" />
+            <span>
+            Check out my work-in-progress portfolio site over at{' '}
+            <a href="https://harris.schneiderman.dev">harris.schneiderman.dev</a>
+            </span>
+          </p>
+        </div>
         <Banner />
         <Projects />
         <Talks />
