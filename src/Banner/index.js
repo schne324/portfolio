@@ -17,13 +17,6 @@ const Banner = () => (
     >
       The real Harris Schneiderman
     </a>
-    <a
-      rel='noopener noreferrer'
-      target='_blank'
-      href='/Resume.pdf'
-    >
-      Resume
-    </a>
   </div>
 );
 
